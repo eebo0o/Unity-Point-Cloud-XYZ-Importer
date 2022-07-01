@@ -15,12 +15,18 @@ Supported Formats
 Currently the Plugin only supports PLY,XYZ,XYZRGB format.
 XYZ files has to be [ASC] point, color format.
 
+
 Can support Files with size 2GB and arround 48M point.
+For now if you need to import larger files you can split the large file into small files that can be imported then use them as a seprate models.
+
 
 There are 2 types of container for point clouds.
+
 
 Mesh
 Points are to be contained in a Mesh object. They can be rendered with the standard MeshRenderer component. It's recommended to use the custom shaders included in Pcx (Point Cloud/Point and Point Cloud/Disk).
 
+
 ComputeBuffer
 Points are to be contained in a PointCloudData object, which uses ComputeBuffer to store point data. It can be rendered with using the PointCloudRenderer component.
+
