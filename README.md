@@ -21,4 +21,6 @@ There are 2 types of container for point clouds.
 Mesh Points are to be contained in a Mesh object. They can be rendered with the standard Mesh Renderer component. It's recommended to use the custom shaders included in Pcx (Point Cloud/Point and Point Cloud/Disk).
 
 Compute Buffer Points are to be contained in a Point Cloud Data object, which uses Compute Buffer to store point data. It can be rendered with using the Point Cloud Renderer component.
-
+---------------------------------------------------------------------------------------------
+These Plugin are licensed under the Creative Commons Attribution license ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
+---------------------------------------------------------------------------------------------
